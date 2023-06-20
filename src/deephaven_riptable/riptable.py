@@ -1,6 +1,7 @@
 #
 #     Copyright (c) 2016-2023 Deephaven Data Labs and Patent Pending
 #
+"""This module provides the functions to support the conversion between Deephaven tables and Riptable Datasets."""
 from typing import List
 
 import deephaven.pandas as dhpd
