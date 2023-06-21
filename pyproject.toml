@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools==61.0.0", "setuptools-scm"]
+requires = ["setuptools>=61.0.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -23,13 +23,14 @@ classifiers = [
     'Programming Language :: Python :: 3.11',
 ]
 dependencies = [
-    "deephaven-core",
+    "deephaven-core>=0.25.2",
+    "riptable>=1.9.0",
 ]
 dynamic = ["version", "readme"]
 
 [tool.setuptools.dynamic]
 version = {attr = "deephaven_riptable.__version__"}
-readme = {file = ["README.md"]}
+readme = {file = ["README.md"], content-type = "text/markdown"}
 
 [tool.setuptools.packages.find]
 where = ["src"]

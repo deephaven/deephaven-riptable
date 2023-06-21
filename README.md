@@ -2,11 +2,6 @@
 
 deephaven-riptable is a Python package created by Deephaven Data Labs. It supports the conversion between Riptable Datasets and Deephaven tables.
 
-## Source Directory
-
-### From the deephaven-riptable root 
-(clone from https://github.com/deephaven/deephaven-riptable)
-
 ## Dev environment setup
 ``` shell
 $ pip3 install -r requirements-dev.txt

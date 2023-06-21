@@ -1,4 +1,4 @@
 setuptools
 wheel
 build
-deephaven-core>="0.26.0"
+deephaven-core>="0.25.2"
