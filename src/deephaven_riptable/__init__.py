@@ -5,3 +5,5 @@
 Riptable Dataset."""
 
 __version__ = "0.1.0"
+
+from deephaven_riptable.riptable import to_dataset, to_table

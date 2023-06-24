@@ -15,7 +15,7 @@ from riptable.rt_enum import (
 )
 
 import deephaven.pandas as dhpd
-import deephaven.riptable as dhrt
+import deephaven_riptable as dhrt
 from deephaven import new_table, dtypes
 from deephaven.column import byte_col, char_col, short_col, bool_col, int_col, long_col, float_col, double_col, \
     string_col, datetime_col
